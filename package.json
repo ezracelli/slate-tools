@@ -1,6 +1,6 @@
 {
   "name": "vue-slate-tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A modern development toolkit for Shopify themes, semi-compatible with `vue-cli` v2",
   "repository": "https://github.com/ezracelli/slate-tools",
   "license": "MIT",
