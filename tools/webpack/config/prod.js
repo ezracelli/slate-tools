@@ -87,7 +87,7 @@ module.exports = merge([
 
       new HtmlWebpackPlugin({
         filename: '../layout/theme.liquid',
-        template: '../theme.liquid',
+        template: path.join(config.get('paths.theme.src.layout'), 'theme.liquid'),
         inject: false,
         devServer: false,
       }),

@@ -50,41 +50,6 @@ module.exports = {
 
   module: {
     rules: [
-      // {
-      //   test: /\.js$/,
-      //   exclude: config.get('webpack.commonExcludes'),
-      //   loader: 'hmr-alamo-loader',
-      // },
-      // {
-      //   test: /fonts\/.*\.(eot|svg|ttf|woff|woff2|otf)$/,
-      //   exclude: /node_modules/,
-      //   loader: 'file-loader',
-      // },
-      // {
-      //   test: /\.(png|svg|jpg|gif)$/,
-      //   exclude: config.get('webpack.commonExcludes'),
-      //   use: [
-      //     {loader: 'file-loader', options: {name: '[name].[ext]'}},
-      //     {loader: 'img-loader'},
-      //   ],
-      // },
-      // {
-      //   test: /\.(liquid|json)$/,
-      //   exclude: [
-      //     /(css|scss|sass)\.liquid$/,
-      //     ...config.get('webpack.commonExcludes'),
-      //   ],
-      //   loader: 'file-loader',
-      //   options: {
-      //     name: '../[path][name].[ext]',
-      //   },
-      // },
-      // {
-      //   test: /(css|scss|sass)\.liquid$/,
-      //   exclude: config.get('webpack.commonExcludes'),
-      //   use: extractLiquidStyles.extract(['concat-style-loader']),
-      // },
-
       {
         test: /\.vue$/,
         loader: 'vue-loader',

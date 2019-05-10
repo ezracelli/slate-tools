@@ -2,10 +2,10 @@ const path = require('path');
 const os = require('os');
 const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
-const commonPaths = require('./paths.schema');
+const paths = require('./paths.schema');
 
 module.exports = {
-  ...commonPaths,
+  ...paths,
 
   // Enable/disable the prompt to skip uploading settings_data.json
   'cli.promptSettings': true,
